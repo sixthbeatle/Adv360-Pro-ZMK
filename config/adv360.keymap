@@ -28,13 +28,6 @@
             bindings = <&kp RIGHT_WIN &kp PRINTSCREEN &kp PAGE_DOWN>;
             label = "SCREENSHOT_PAGEDOWN";
         };
-
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "NEW_MACRO";
-        };
     };
 
     keymap {
