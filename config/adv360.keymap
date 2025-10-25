@@ -27,6 +27,7 @@
             #binding-cells = <0>;
             bindings = <&kp RG(PRINTSCREEN) &kp RIGHT_ARROW>;
             label = "SCREENSHOT_PAGEDOWN";
+            wait-ms = <500>;
         };
     };
 
