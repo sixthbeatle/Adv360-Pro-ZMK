@@ -23,11 +23,11 @@
 
     macros {
         screenshot_pagedown: screenshot_pagedown {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RG(PRINTSCREEN)>;
-            label = "SCREENSHOT_PAGEDOWN";
-        };
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp RG(PRINTSCREEN) &wait-ms 500 &kp RIGHT_ARROW>;
+    label = "SCREENSHOT_PAGEDOWN";
+};
     };
 
     keymap {
