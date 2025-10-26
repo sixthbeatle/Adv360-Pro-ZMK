@@ -25,10 +25,7 @@
         screenshot_pagedown: screenshot_pagedown {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp RG(PRINTSCREEN)>,
-                <&macro_wait_time 3000>,
-                <&kp RIGHT>;
+            bindings = <&macro_wait_time 500>, <&kp RG(PRINTSCREEN) &kp RIGHT>;
 
             label = "SCREENSHOT_PAGEDOWN";
             wait-ms = <0>;
