@@ -23,11 +23,24 @@
 
     macros {
         screenshot_pagedown: screenshot_pagedown {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp LGUI &kp PRINTSCREEN &wait-ms 500 &kp RIGHT_ARROW>;
-    label = "SCREENSHOT_PAGEDOWN";
-};
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp RG(PRINTSCREEN)>,
+                <&macro_wait_time 500>,
+                <&kp RIGHT>;
+
+            label = "SCREENSHOT_PAGEDOWN";
+            wait-ms = <0>;
+        };
+
+        wait_wait: wait_wait {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "WAIT_WAIT";
+            wait-ms = <500>;
+        };
     };
 
     keymap {
