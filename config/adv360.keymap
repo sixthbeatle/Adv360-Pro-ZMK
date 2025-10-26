@@ -33,14 +33,6 @@
             label = "SCREENSHOT_PAGEDOWN";
             wait-ms = <0>;
         };
-
-        wait_wait: wait_wait {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "WAIT_WAIT";
-            wait-ms = <500>;
-        };
     };
 
     keymap {
