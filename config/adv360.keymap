@@ -38,6 +38,13 @@
             bindings = <&none &kp T &kp O &kp M>;
             label = "LOGIN";
         };
+
+        screenshot_arrow: screenshot_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RG(PRINTSCREEN) &kp DOWN_ARROW>;
+            label = "SCREENSHOT_ARROW";
+        };
     };
 
     keymap {
