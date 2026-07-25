@@ -42,7 +42,7 @@
         screenshot_arrow: screenshot_arrow {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RG(PRINTSCREEN) &kp DOWN_ARROW>;
+            bindings = <&kp RG(PRINTSCREEN) &kp DOWN_ARROW &kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp &kp &kp &kp &kp &kp &kp &kp &kp &kp &kp &kp>;
             label = "SCREENSHOT_ARROW";
         };
     };
