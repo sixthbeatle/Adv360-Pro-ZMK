@@ -96,11 +96,11 @@
 
         photoshop {
             bindings = <
-&trans  &kp F2             &kp F3  &trans  &kp LS(LA(LC(F)))  &kp LS(LC(A))  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp V              &kp M   &kp W   &kp C              &kp S          &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp B              &kp E   &trans  &trans             &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans             &trans  &trans  &trans             &trans                         &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(LA(LC(G)))  &trans  &trans  &trans                            &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &kp F2             &kp F3  &kp LS(LA(LC(P)))  &kp LS(LA(LC(F)))  &kp LS(LC(A))  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp V              &kp M   &kp W              &kp C              &kp S          &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp B              &kp E   &trans             &trans             &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans             &trans  &trans             &trans             &trans                         &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LA(LC(G)))  &trans  &trans             &trans                            &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
