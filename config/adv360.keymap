@@ -54,7 +54,7 @@
             display-name = "Base";
             bindings = <
 &kp TILDE  &kp N1                &kp N2     &kp N3      &kp N4     &kp N5  &mo 3                                                        &tog 1     &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &kp EQUAL
-&kp TAB    &kp SQT               &kp COMMA  &kp PERIOD  &kp P      &kp Y   &mo 4                                                        &none      &kp F   &kp G   &kp C     &kp R     &kp L     &kp SLASH
+&kp TAB    &kp SQT               &kp COMMA  &kp PERIOD  &kp P      &kp Y   &tog 4                                                       &none      &kp F   &kp G   &kp C     &kp R     &kp L     &kp SLASH
 &kp ESC    &kp A                 &kp O      &kp E       &kp U      &kp I   &none     &kp LCTRL  &kp LALT      &kp LGUI       &kp RCTRL  &none      &kp D   &kp H   &kp T     &kp N     &kp S     &kp MINUS
 &kp LSHFT  &kp SEMICOLON         &kp Q      &kp J       &kp K      &kp X                        &kp HOME      &kp PAGE_UP                          &kp B   &kp M   &kp W     &kp V     &kp Z     &kp RSHFT
 &mo 2      &kp NON_US_BACKSLASH  &kp SPACE  &kp LEFT    &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PAGE_DOWN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT  &mo 2
@@ -94,13 +94,13 @@
             >;
         };
 
-        red {
+        photoshop {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp LS(LC(A))  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp V   &kp M   &kp W   &kp C   &kp S          &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp B   &kp E   &trans  &trans  &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &kp F2             &kp F3  &trans  &kp LS(LA(LC(F)))  &kp LS(LC(A))  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp V              &kp M   &kp W   &kp C              &kp S          &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp B              &kp E   &trans  &trans             &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans             &trans  &trans  &trans             &trans                         &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LA(LC(G)))  &trans  &trans  &trans                            &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
