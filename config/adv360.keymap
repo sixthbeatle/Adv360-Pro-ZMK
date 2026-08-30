@@ -96,11 +96,11 @@
 
         red {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp V   &kp M   &kp W   &kp C   &kp S   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp B   &kp E   &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp LS(LC(A))  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp V   &kp M   &kp W   &kp C   &kp S          &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp B   &kp E   &trans  &trans  &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                         &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
